@@ -1,0 +1,133 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{  
+    font-family:'Nunito Sans';
+    src: url('../fonts/NunitoSans-Regular.ttf');
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.regisration{
+    display: flex;
+    padding-top: 145px;
+    flex-direction: column;
+    font-family:"Nunito Sans";
+}
+
+.regisration__header{
+    margin: auto;
+    padding-bottom: 36px;
+}
+
+.regisration__block1{
+    display: flex;
+    background: #F1E8D9;
+    border-radius: 5px;
+    height: 64px;
+    text-align: center;
+    justify-content: center;
+    width: 468px;
+    height: 64px;
+    margin: auto; 
+    margin-bottom: 37px; 
+}
+
+.regisration__block1__text{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 4.5%;
+    display: flex;
+    align-items: center;
+    color: #0D0D0C;
+}
+
+.regisration__block2{
+    display: flex;
+    width: 468px;
+    height: 375px;
+    background: rgba(221, 183, 113, 0.22);
+    border-radius: 5px;
+    margin: auto;
+    flex-direction: column;
+    padding-top: 50px;
+     
+}
+
+.regisration__inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.regisration__input__block{
+    margin-bottom: 20px;
+}
+
+.regisration__input__text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #0F0F0F;
+    margin-bottom: 10px;
+}
+
+
+.regisration__input{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 20px rgba(206, 206, 206, 0.25);
+    border-radius: 60px;
+    width: 360px;
+    height: 51px;
+    padding-left: 10px;
+}
+
+.regisration__info{
+    padding-bottom: 30px;
+}
+
+.regisration__btn{
+    padding-left: 230px;
+
+}
+
+.regisration__button{
+    display: flex;
+    background: #08A045;
+    border-radius: 60px;
+    height: 51px;
+    padding: 15px;
+
+}
+
+.regisration__button__text{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+
+}
+
+.footer{
+    display: flex;
+    margin: auto;
+    padding-top: 30px;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: rgba(15, 15, 15, 0.71);
+    padding-right: 250px;
+}
